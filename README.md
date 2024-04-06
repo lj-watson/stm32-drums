@@ -16,7 +16,7 @@ There are three states that the loop can be in: Default, Record, and Play. In De
 
 ### Circuitry
 To output the sound, the DAC output is fed through a potentiometer and an LM386 amplifier following this [guide](https://www.circuitbasics.com/build-a-great-sounding-audio-amplifier-with-bass-boost-from-the-lm386/).  
-There is also a 100nF capacitor and 10Ω resistor in parallel with the speaker not shown here.
+Not shown here, there is also a 100nF capacitor and 10Ω resistor in series connected to pin 5 output and ground before the speaker.
 ![Circuit](https://github.com/lj-watson/stm32-project/blob/master/STM32_Circuit.png)
 
 ## Acknowledgements
