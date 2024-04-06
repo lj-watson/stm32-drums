@@ -15,8 +15,8 @@ At the beginning of the infinite loop, the state of the each button is read (pre
 There are three states that the loop can be in: Default, Record, and Play. In Default mode, it works as described above. If the user presses the Record button, then the program enters Record mode. Now when a button is pressed which button was pressed and when it was pressed is recorded. To record the time it was pressed the loop iteration is counted. There are millions of loops every second, so this number gets very large, but storing it in a 64 bit integer means it will never overflow in a practical sense. In Play mode, the recording is played back on a loop. This works by checking if the loop iteration has reached one of the recorded ones, and if so assigning a button press to the button that was pressed at that moment. Then the sound is output as if the user had pressed the button. Checks are also implemented to ensure that a user can only enter Record and Play mode while they are in Default mode.
 
 ### Circuitry
-To output the sound, the DAC output is fed through a potentiometer and an LM386 amplifier following this [guide](https://www.circuitbasics.com/build-a-great-sounding-audio-amplifier-with-bass-boost-from-the-lm386/).
-
+To output the sound, the DAC output is fed through a potentiometer and an LM386 amplifier following this [guide](https://www.circuitbasics.com/build-a-great-sounding-audio-amplifier-with-bass-boost-from-the-lm386/).  
+There is also a 100nF capacitor and 10Ω resistor in parallel with the speaker not shown here.
 ![Circuit](https://github.com/lj-watson/stm32-project/blob/master/STM32_Circuit.png)
 
 ## Acknowledgements
