@@ -19,5 +19,5 @@ To output the sound, the DAC output is fed through a potentiometer and an LM386 
 
 
 ## Acknowledgements
-*Developed with [ethanluan10](https://github.com/ethanluan10)
-*[spanceac's project](https://github.com/spanceac) for the sound bytes
+* Developed with [ethanluan10](https://github.com/ethanluan10)
+* [spanceac's project](https://github.com/spanceac) for the sound bytes
