@@ -1,10 +1,12 @@
-# STM32 Drum Machine
+# STM32 Audio Mixer
 
 ## Description
-The goal of this project was to create a drum machine on an STM32 that is capable of playing and mixing different sounds, in addition to recording and playing back user inputs.
+The completed project is a physical audio mixer running on an STM32 microcontroller, which allows users to push buttons to create different drum sounds. The sounds can be mixed, recorded, and played back - and these actions can be done simultaneously.
 
 ## Components
-This code was created for an STM32 Nucleo F446ZE, which has a built in DAC. The circuit includes an amplifier, potentiometer and push buttons. The project can output 5 unique drum sounds, and includes a button for recording and replaying.
+This code was created for an STM32 Nucleo F446ZE, which has a built in DAC. The circuit includes an amplifier, potentiometer and push buttons.
+
+--------------------------------
 
 ## Method
 ### Outputting Audio - Timer & DAC
